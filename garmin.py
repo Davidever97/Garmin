@@ -11,7 +11,7 @@ def get_activities():
     from matplotlib import pyplot as plt
     import pandas as pd
 
-    client = Garmin("davidesposito1@outlook.it", "Davidever97")
+    client = Garmin("YOURUSERNAME", "YOURPASS")
     client.login()
     act=list(client.get_activities(0,100))
     distance=[]
